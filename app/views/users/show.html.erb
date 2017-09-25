@@ -15,5 +15,7 @@
 
 <p>
   First micropost:
-  <%= @user.microposts.first.content %>
+  <% if @user.microposts %>
+    <%= @user.microposts.first.content %>
+  <% end %>
 </p>
