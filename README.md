@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is my code for the Rails tutorial at https://www.railstutorial.org.
 
-Things you may want to cover:
+## Setup Instructions
 
-* Ruby version
+If on Ubuntu, run the following:
+* `apt-get install build-essential libsqlite3-dev zlib1g-dev`
 
-* System dependencies
+Then run:
+* `bundle install`
 
-* Configuration
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
